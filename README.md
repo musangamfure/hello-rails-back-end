@@ -8,7 +8,7 @@
 
 | Repository                                                            | Pull request                                                                         |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [Repo link >>](https://github.com/musangamfure/hello-rails-front-end) | [Pull request Here >>](https://github.com/nusangamfure/hello-rails-front-end/pull/1) |
+| [Repo link >>](https://github.com/musangamfure/hello-rails-front-end) | [Pull request Here >>](https://github.com/musangamfure/hello-rails-front-end/pull/1) |
 
 ## Built With
 
