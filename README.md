@@ -1,74 +1,119 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello React-Rails-Backend
+# Hello rails back end
 
-> A simple web api application that has a backend powered by ruby on rails and exposes it's api to a front end application built with react
+<a name="readme-top"></a>
 
-## Front-end Repository
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+- [Front-End](#frond-end)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+# 📖 [Hello rails back end] <a name="about-project"></a>
+
+A simple web api application that has a backend powered by ruby on rails and exposes it's api to a front end application built with react
+
+## Front-End <a name="frond-end"></a>
 
 | Repository                                                            | Pull request                                                                         |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | [Repo link >>](https://github.com/musangamfure/hello-rails-front-end) | [Pull request Here >>](https://github.com/musangamfure/hello-rails-front-end/pull/1) |
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- Install Ruby on Rails [click here >>](https://guides.rubyonrails.org/)
-- Linter: [Rubocop](https://rubocop.org/)
+### Tech Stack <a name="tech-stack"></a>
 
-## Getting Started
+<details>
+  <summary>Ruby on Rails</summary>
+  <ul>
+    <li><a>https://rubyonrails.org/</a></li>
+  </ul>
+  <summary>Postgres</summary>
+  <ul>
+    <li><a>https://www.postgresql.org/</a></li>
+  </ul>
+</details>
 
-To get a local copy up and running follow these simple example steps.
+### Key Features <a name="key-features"></a>
+
+- **[Generate random greetings]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-```
-  Ruby
-  Ruby on Rails
-  PostgreSQL
-```
+In order to run this project you need:
+
+- Install Ruby
+- Install Rails
+- Install Postgresql
 
 ### Setup
 
-Clone the repository and change the directory to hello-rails-back-end
+Clone this repository to your desired folder:
 
 ```
-  $ git clone git@github.com:musangamfure/hello-rails-back-end.git
-  $ cd hello-rails-back-end
+  cd hello-rails-backend
+  git clone https://github.com/deniodev/hello-rails-back-end.git
 ```
 
 ### Install
 
-Install all project dependencies by running the command below
+Install this project with:
 
 ```
-  $ bundle install
+  cd hello-rails-backend
+  bundle install && npm install
 ```
 
-### Run the application
+### Usage
+
+To run the project, execute the following command:
 
 ```
-  $ rails s
+  yarn build
 ```
 
-### Visit the homepage of application
-
 ```
-  $ http://localhost:3000/
-```
-
-### Check linter errors
-
-```
-  $ rubocop .
+  rails s
 ```
 
 ### Run tests
 
+To run tests, run the following command:
+
 ```
-  $ rspec
+  rubocop --color
+```
+```
+  rspec
 ```
 
-### Authors
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Musangamfura Emmmanuel**
 
@@ -76,20 +121,46 @@ Install all project dependencies by running the command below
 - [Twitter](https://twitter.com/musangamfure)
 - [LinkedIn](https://www.linkedin.com/in/musangamfurae)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Improve the UI]**
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/musangamfure/hello-rails-back-end/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Hat tip to [Microverse](https://bit.ly/MicroverseTN) for giving me this project to work on
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
