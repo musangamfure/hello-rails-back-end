@@ -5,7 +5,11 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v1 do
-      resources :greetings
+      resources :greetings do
+        collection do
+          get 'random'
+        end
+      end
     end
   end
 end
